@@ -65,7 +65,7 @@ tab > stack {
 tab {
 	color: var(--gnome-tabbar-tab-color) !important;
 	font-family: Cantarell, inherit;
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 1em;
 }
 tab:hover {
@@ -191,7 +191,7 @@ tab[selected]:-moz-window-inactive {
 
 /* Move container lines to the top */
 .tabbrowser-tab[usercontextid] > .tab-stack > .tab-background {
-	border-top: 3px solid var(--identity-tab-color) !important;
+	border-top: 2px solid var(--identity-tab-color) !important;
 }
 
 .tabbrowser-tab[usercontextid] > .tab-stack > .tab-background > .tab-bottom-line {
@@ -263,7 +263,7 @@ tab[selected]:-moz-window-inactive {
 	content: "";
 	display: block;
 	background-image: var(#userContext-icons:--identity-icon);
-	background: var( --identity-tab-color);
+	background: transparent;
 	-moz-context-properties: fill;
 	fill: var(--identity-icon-color);
 	background-size: contain;
@@ -272,7 +272,7 @@ tab[selected]:-moz-window-inactive {
 	min-width: 10px;
 	height: 10px;
 	margin-right: 5px;
-	margin-left: auto !important;
+	margin-left: 0px;
 	border-radius: 100%;
 }
 

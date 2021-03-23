@@ -169,8 +169,8 @@ $header_button_active_bg:           if($variant == 'dark', lighten($header_bg, 3
 $header_button_checked_bg:          if($variant == 'dark', lighten($header_bg, 45%), #686868);
 
 // Path Bar
-$pathbar_bg:                        if($variant == 'dark', #505050, #CDCDCD);
-$pathbar_border:                    if($variant == 'dark', #232323, #A7A7A7);
+$pathbar_bg:                        if($variant == 'dark', #6C6C6C, #F9F9F9);
+$pathbar_border:                    if($variant == 'dark', #505050, #909090);
 
 // Button borders and highlights colors
 $button_highlight:                  if($variant == 'light', white, rgba(white, 0.1));

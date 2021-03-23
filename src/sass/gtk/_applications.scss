@@ -124,7 +124,12 @@ window.background.csd { // gnome-terminal 3.32 setting
 
   .path-bar-box {
     color: transparent;
-    background: none;
+    background-color: $pathbar_bg;
+    border-radius: if($variant == 'dark', 7px, 6px);
+    border-width: 0px;
+    padding: 1px 0px 0px 0px;
+    box-shadow: 1px 1px 1px $pathbar_border inset;
+    
 
     .path-bar {
       padding: 0;

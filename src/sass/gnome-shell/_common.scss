@@ -1099,7 +1099,7 @@ $selected_slider_color: white;
     -panel-corner-border-width: 8px;
     -panel-corner-border-color: transparent;
 
-    &:active, &:overview, &:focus {
+    &:active, &:overview, &:focus, &:checked {
       -panel-corner-border-color: $primary_color;
       -panel-corner-background-color: $primary_color;
     }

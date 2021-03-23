@@ -5166,7 +5166,11 @@ window.background.csd > box.vertical > box.horizontal > stack > widget > noteboo
 
 .nautilus-window headerbar .path-bar-box {
   color: transparent;
-  background: none;
+  background-color: #6C6C6C;
+  border-radius: 7px;
+  border-width: 0px;
+  padding: 1px 0px 0px 0px;
+  box-shadow: 1px 1px 1px #505050 inset;
 }
 
 .nautilus-window headerbar .path-bar-box .path-bar {

@@ -1285,7 +1285,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   -panel-corner-border-color: transparent;
 }
 
-#panel .panel-corner:active, #panel .panel-corner:overview, #panel .panel-corner:focus {
+#panel .panel-corner:active, #panel .panel-corner:overview, #panel .panel-corner:focus, #panel .panel-corner:checked {
   -panel-corner-border-color: #E55E9C;
   -panel-corner-background-color: #E55E9C;
 }
