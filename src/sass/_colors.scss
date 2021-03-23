@@ -21,10 +21,10 @@
 }
 
 // Base colors
-$base_color:                        if($variant == 'light', #ffffff, #242424);
+$base_color:                        if($variant == 'light', #ffffff, #2D2D2D);
 $text_color:                        if($variant == 'light', #363636, #dadada);
 $bg_color:                          if($variant == 'light', #f5f5f5, #333333);
-$fg_color:                          if($variant == 'light', #242424, #dedede);
+$fg_color:                          if($variant == 'light', #2D2D2D, #dedede);
 $alt_fg_color:                      if($variant == 'light', #424242, #afafaf);
 $hint_fg_color:                     if($variant == 'light', #565656, #999999);
 
@@ -56,7 +56,7 @@ $highlight_color:                   if($variant == 'light', rgba(white, 0.65), r
 $dark_bg_color:                     rgba(black, 0.6);
 $alt_dark_bg_color:                 rgba(black, 0.3);
 $solid_bg_color:                    if($variant == 'light', #FAFAFA, #555555); // for gnome-shell keyboard
-$alt_solid_bg_color:                if($variant == 'light', #E0E0E0, #242424); // for gnome-shell keyboard
+$alt_solid_bg_color:                if($variant == 'light', #E0E0E0, #2D2D2D); // for gnome-shell keyboard
 
 // Link colors
 $link_color:                        #3484e2;
@@ -79,13 +79,13 @@ $alt_disabled_fg_color:             if($variant == 'light', transparentize($alt_
 $disabled_bg_color:                 if($variant == 'light', mix($bg_color, $base_color, 40%), lighten($bg_color, 2%));
 
 // Headerbar colors
-$header_bg:                         if($variant == 'dark', #373737, #e5e5e5);
-$header_highlight:                  if($variant == 'dark', #434343, #f5f5f5);
-$header_top:                        if($variant == 'dark', #434343, #e9e9e9);
-$header_middle:                     if($variant == 'dark', #3e3e3e, #e2e2e2);
-$header_bottom:                     if($variant == 'dark', #383838, #d2d2d2);
+$header_bg:                         if($variant == 'dark', #282828, #e5e5e5);
+$header_highlight:                  if($variant == 'dark', #5A5A5A, #f5f5f5);
+$header_top:                        if($variant == 'dark', #2D2D2D, #e9e9e9);
+$header_middle:                     if($variant == 'dark', #282828, #e2e2e2);
+$header_bottom:                     if($variant == 'dark', #232323, #d2d2d2);
 
-$header_bg_backdrop:                if($variant == 'light', #F6F6F6, #313131);
+$header_bg_backdrop:                if($variant == 'light', #F6F6F6, #252525);
 $header_border:                     if($variant == 'light', #a1a1a1, #101010);
 
 $header_fg:                         if($variant == 'light', #575757, #FDFDFD);
@@ -133,10 +133,10 @@ $menu_bd:                           if($variant == 'light', rgba(black, 0.05), r
 }
 
 // Panel colors
-$panel_bg:                          if($variant == 'light', #f1f1f1, #2a2a2a);
+$panel_bg:                          if($variant == 'light', #f1f1f1, rgba(black, 0.85));
 
 @if $trans == 'true' {
-  $panel_bg:                        if($variant == 'light', rgba(#f1f1f1, 0.85), rgba(#2a2a2a, 0.85));
+  $panel_bg:                        if($variant == 'light', rgba(#f1f1f1, 0.85), rgba(black, 0.85));
 }
 
 $panel_fg:                          $text_color;
@@ -168,6 +168,10 @@ $header_button_hover_bg:            if($variant == 'dark', lighten($header_bg, 2
 $header_button_active_bg:           if($variant == 'dark', lighten($header_bg, 35%), #888888);
 $header_button_checked_bg:          if($variant == 'dark', lighten($header_bg, 45%), #686868);
 
+// Path Bar
+$pathbar_bg:                        if($variant == 'dark', #505050, #CDCDCD);
+$pathbar_border:                    if($variant == 'dark', #232323, #A7A7A7);
+
 // Button borders and highlights colors
 $button_highlight:                  if($variant == 'light', white, rgba(white, 0.1));
 
@@ -195,13 +199,13 @@ $headerbar_bg_image:                linear-gradient(0deg, $header_bottom 0%, $he
 $headerbar_top_image:               linear-gradient(0deg, $header_middle 0%, $header_top 100%);
 $header_button_image:               if($variant == 'light',
                                     linear-gradient( 0deg, #f1f1f1 0%, #fdfdfd 95%, #fefefe 100%),
-                                    linear-gradient( 0deg, #636363 0%, #696969 100%));
+                                    linear-gradient( 0deg, #646464 0%, #6E6E6E 100%));
 $header_button_hover_image:         if($variant == 'light',
                                     linear-gradient( 0deg, #f8f8f8 0%, #ffffff 100%),
-                                    linear-gradient( 0deg, #707070 0%, #767676 100%));
+                                    linear-gradient( 0deg, #898989 0%, #8F8F8F 100%));
 $header_button_checked_image:       if($variant == 'light',
                                     linear-gradient( 0deg, #656565 0%, #707070 100%),
-                                    linear-gradient( 0deg, #c1c1c1 0%, #c6c6c6 100%));
+                                    linear-gradient( 0deg, #C2C2C2 0%, #C8C8C8 100%));
 
 $menubar_bg_image:                  linear-gradient(0deg, $header_bottom 0%, $header_middle 100%);
 

@@ -2,7 +2,7 @@ $asset_suffix: if($variant == 'dark', '-dark', '');
 $con_asset_suffix: if($variant=='dark', '', '-dark');
 $extra_background_clip: if($variant == 'light', padding-box, border-box);
 
-$panel-corner-radius: 0;
+$panel-corner-radius: 12px;
 
 // font families
 $font-family: "M+ 1c", Roboto, Cantarell, Sans-Serif;
@@ -25,7 +25,7 @@ $disabled_opacity: 0.5;
 $small_size: if($laptop == 'false', 24px, 20px);
 $medium_size: if($laptop == 'false', 36px, 32px);
 $large_size: if($laptop == 'false', 48px, 44px);
-$menuitem_size: if($laptop == 'false', 32px, 28px);
+$menuitem_size: if($laptop == 'false', 28px, 24px);
 $container_padding: 6px;
 
 // radiuses

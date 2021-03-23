@@ -1096,11 +1096,16 @@ $selected_slider_color: white;
   .panel-corner {
     -panel-corner-radius: $panel-corner-radius;
     -panel-corner-background-color: $panel_bg;
-    -panel-corner-border-width: 2px;
+    -panel-corner-border-width: 8px;
     -panel-corner-border-color: transparent;
 
     &:active, &:overview, &:focus {
-      -panel-corner-border-color: $light_alt_fg_color;
+      -panel-corner-border-color: $primary_color;
+      -panel-corner-background-color: $primary_color;
+    }
+    
+    &:hover {	
+      -panel-corner-border-color: $light_divider_color;
     }
 
     &.lock-screen, &.login-screen, &.unlock-screen {

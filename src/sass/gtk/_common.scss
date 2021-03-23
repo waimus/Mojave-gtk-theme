@@ -1872,7 +1872,16 @@ headerbar, .titlebar {
 
 //
 // Pathbars
-//
+/*
+.path-bar-box {
+  // path-bar-box is somewhat broken
+  background-color: if($variant == 'dark', #505050, #CDCDCD);
+  border-radius: 7px;
+  border-style: outset;
+  border-width: 1px;
+  border-color: $pathbar_border;
+}*/
+
 .path-bar button {
   min-width: 12px;
   min-height: if($variant == 'light', 20px, 22px);
@@ -2327,7 +2336,7 @@ notebook {
 
   > header {
     padding: 0;
-    background-color: darken($header_bg, 10%);
+    background-color: darken($header_bg, 5%);
 
     // Set box-shadow to make the header frame color more easy to see
     // Set margin to hide the ugly borders around the header
