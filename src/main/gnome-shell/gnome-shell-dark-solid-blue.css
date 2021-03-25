@@ -1262,7 +1262,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 /* TOP BAR */
 #panel {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: black;
   /* transition from solid to transparent */
   transition-duration: 250ms;
   font-weight: bold;
@@ -1280,7 +1280,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 #panel .panel-corner {
   -panel-corner-radius: 12px;
-  -panel-corner-background-color: rgba(0, 0, 0, 0.85);
+  -panel-corner-background-color: black;
   -panel-corner-border-width: 8px;
   -panel-corner-border-color: transparent;
 }
@@ -1405,7 +1405,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #panel.solid {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: black;
   /* transition from transparent to solid */
   transition-duration: 250ms;
   background-gradient-direction: none;
@@ -1417,7 +1417,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #panel.solid .panel-corner {
-  -panel-corner-background-color: rgba(0, 0, 0, 0.85);
+  -panel-corner-background-color: black;
 }
 
 #panel.solid .panel-button {

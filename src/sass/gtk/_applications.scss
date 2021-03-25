@@ -72,7 +72,7 @@ window.background.csd { // gnome-terminal 3.32 setting
 
 %pathbar_box_button {
   // min-height: if($variant == 'light', 24px, 26px);
-  border-radius: 0;
+  border-radius: 8px 0px 0px 8px;
   border: 1px solid rgba(black, 0.2);
   border-right-style: none;
   border-bottom-color: $borders_bottom_color;
@@ -125,9 +125,7 @@ window.background.csd { // gnome-terminal 3.32 setting
   .path-bar-box {
     color: transparent;
     background-color: $pathbar_bg;
-    border-radius: if($variant == 'dark', 7px, 6px);
-    border-width: 0px;
-    padding: 1px 0px 0px 0px;
+    border-radius: 5px;
     box-shadow: 1px 1px 1px $pathbar_border inset;
     
 
@@ -1785,8 +1783,8 @@ window.background {
         &:checked { @include button(flat-checked); border-color: $borders_color; }
       }
 
-      &.suggested-action {  // '=' button
-      }
+      //&.suggested-action {  // '=' button
+      //}
     }
   }
 }
@@ -1816,12 +1814,12 @@ notebook > box > stack > box.vertical > paned.vertical > overlay {
   > .floating-bar { color: rgba($fg_color, 0.75); }
 }
 
-.background:not(.csd) > box.vertical > headerbar {
+//.background:not(.csd) > box.vertical > headerbar {
   // conflicts with .primary-toolbar styling?
-  .linked > button.image-button { // = 'back/forward' button
+  //.linked > button.image-button { // = 'back/forward' button
 
-  }
-}
+  //}
+//}
 
 // overrides foregrounds for 3.24's ssd-mode
 .background headerbar entry {

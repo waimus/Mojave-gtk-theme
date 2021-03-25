@@ -1673,7 +1673,7 @@ headerbar .linked:not(.vertical) > button:last-child {
 headerbar .linked:not(.vertical) > entry {
   color: #FDFDFD;
   background-color: #4e4e4e;
-  background-image: linear-gradient(0deg, #646464 0%, #6E6E6E 100%);
+  background-image: linear-gradient(0deg, #8C8C8C 0%, #969696 100%);
   box-shadow: inset 0 1px #767676;
   margin-top: 6px;
   margin-bottom: 6px;
@@ -1717,7 +1717,7 @@ headerbar .linked.path-bar:not(.vertical) > button {
   border-color: rgba(255, 255, 255, 0.12);
   color: #FDFDFD;
   background-color: #4e4e4e;
-  background-image: linear-gradient(0deg, #646464 0%, #6E6E6E 100%);
+  background-image: linear-gradient(0deg, #8C8C8C 0%, #969696 100%);
   border: none;
   box-shadow: inset 0 1px #767676;
   border-right: 1px solid rgba(255, 255, 255, 0.12);
@@ -1735,7 +1735,7 @@ headerbar .linked.path-bar:not(.vertical) > button:hover {
 headerbar .linked.stack-switcher:not(.vertical):not(.path-bar) > button:active,
 headerbar .linked.path-bar:not(.vertical) > button:active {
   color: white;
-  background-color: #818181;
+  background-color: #6f6f6f;
   background-image: none;
   border-color: rgba(255, 255, 255, 0.12);
 }
@@ -1999,7 +1999,7 @@ headerbar entry, .titlebar entry {
 .nemo-window .primary-toolbar entry, headerbar entry {
   color: #FDFDFD;
   background-color: #4e4e4e;
-  background-image: linear-gradient(0deg, #646464 0%, #6E6E6E 100%);
+  background-image: linear-gradient(0deg, #8C8C8C 0%, #969696 100%);
   box-shadow: inset 0 1px #767676;
   border-radius: 7px;
   border: 3px solid transparent;
@@ -2084,7 +2084,7 @@ window.org-gnome-gedit > paned.titlebar > headerbar button.flat.toggle.popup:not
   border-color: rgba(255, 255, 255, 0.12);
   color: #FDFDFD;
   background-color: #4e4e4e;
-  background-image: linear-gradient(0deg, #646464 0%, #6E6E6E 100%);
+  background-image: linear-gradient(0deg, #8C8C8C 0%, #969696 100%);
   border: none;
   box-shadow: inset 0 1px #767676;
 }
@@ -2105,7 +2105,7 @@ window.org-gnome-gedit > paned.titlebar > headerbar button.flat.toggle.popup:hov
 
 window.org-gnome-gedit > paned.titlebar > headerbar button.flat.toggle.popup:active:not(.image-button), window.org-gnome-gedit > paned.titlebar > headerbar .raven .raven-header:not(.top) button.toggle.popup:active:not(.image-button), .raven .raven-header:not(.top) window.org-gnome-gedit > paned.titlebar > headerbar button.toggle.popup:active:not(.image-button), .nemo-window .primary-toolbar button:active, headerbar button:active {
   color: white;
-  background-color: #818181;
+  background-color: #6f6f6f;
   background-image: none;
   border-color: rgba(255, 255, 255, 0.12);
   transition: all 100ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -2143,7 +2143,7 @@ window.org-gnome-gedit > paned.titlebar > headerbar button.flat.toggle.popup:dis
 
 window.org-gnome-gedit > paned.titlebar > headerbar button.flat.toggle.popup:disabled:active:not(.image-button), window.org-gnome-gedit > paned.titlebar > headerbar .raven .raven-header:not(.top) button.toggle.popup:disabled:active:not(.image-button), .raven .raven-header:not(.top) window.org-gnome-gedit > paned.titlebar > headerbar button.toggle.popup:disabled:active:not(.image-button), .nemo-window .primary-toolbar button:disabled:active, window.org-gnome-gedit > paned.titlebar > headerbar button.flat.toggle.popup:disabled:checked:not(.image-button), window.org-gnome-gedit > paned.titlebar > headerbar .raven .raven-header:not(.top) button.toggle.popup:disabled:checked:not(.image-button), .raven .raven-header:not(.top) window.org-gnome-gedit > paned.titlebar > headerbar button.toggle.popup:disabled:checked:not(.image-button), .nemo-window .primary-toolbar button:disabled:checked {
   color: rgba(255, 255, 255, 0.35);
-  background-color: rgba(129, 129, 129, 0.55);
+  background-color: rgba(111, 111, 111, 0.55);
 }
 
 window.org-gnome-gedit > paned.titlebar > headerbar button.flat.toggle.popup:not(.image-button), window.org-gnome-gedit > paned.titlebar > headerbar .raven .raven-header:not(.top) button.toggle.popup:not(.image-button), .raven .raven-header:not(.top) window.org-gnome-gedit > paned.titlebar > headerbar button.toggle.popup:not(.image-button), .nemo-window .primary-toolbar button.flat, .nemo-window .primary-toolbar .raven .raven-header:not(.top) button, .raven .raven-header:not(.top) .nemo-window .primary-toolbar button, headerbar button.flat, headerbar .raven .raven-header:not(.top) button, .raven .raven-header:not(.top) headerbar button {
@@ -5117,12 +5117,12 @@ window.background.csd > box.vertical > box.horizontal > stack > widget > noteboo
 
 .nautilus-window headerbar .path-bar-box .path-bar button.flat.text-button.toggle, .nautilus-window headerbar .path-bar-box .path-bar .raven .raven-header:not(.top) button.text-button.toggle, .raven .raven-header:not(.top) .nautilus-window headerbar .path-bar-box .path-bar button.text-button.toggle,
 .nautilus-window headerbar .path-bar-box .path-bar button.flat.image-button.text-button.toggle {
-  border-radius: 0;
+  border-radius: 8px 0px 0px 8px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-right-style: none;
   border-bottom-color: rgba(255, 255, 255, 0.12);
   background-color: #4e4e4e;
-  background-image: linear-gradient(0deg, #646464 0%, #6E6E6E 100%);
+  background-image: linear-gradient(0deg, #8C8C8C 0%, #969696 100%);
 }
 
 .nautilus-window headerbar .path-bar-box .path-bar button.flat.text-button.toggle:hover, .nautilus-window headerbar .path-bar-box .path-bar .raven .raven-header:not(.top) button.text-button.toggle:hover, .raven .raven-header:not(.top) .nautilus-window headerbar .path-bar-box .path-bar button.text-button.toggle:hover {
@@ -5133,7 +5133,7 @@ window.background.csd > box.vertical > box.horizontal > stack > widget > noteboo
 
 .nautilus-window headerbar .path-bar-box .path-bar button.flat.text-button.toggle:active, .nautilus-window headerbar .path-bar-box .path-bar .raven .raven-header:not(.top) button.text-button.toggle:active, .raven .raven-header:not(.top) .nautilus-window headerbar .path-bar-box .path-bar button.text-button.toggle:active {
   color: white;
-  background-color: #818181;
+  background-color: #6f6f6f;
   background-image: none;
 }
 
@@ -5167,9 +5167,7 @@ window.background.csd > box.vertical > box.horizontal > stack > widget > noteboo
 .nautilus-window headerbar .path-bar-box {
   color: transparent;
   background-color: #6C6C6C;
-  border-radius: 7px;
-  border-width: 0px;
-  padding: 1px 0px 0px 0px;
+  border-radius: 5px;
   box-shadow: 1px 1px 1px #505050 inset;
 }
 
@@ -5394,7 +5392,7 @@ window.background.csd > box.vertical > box.horizontal > stack > widget > noteboo
   }
   100% {
     color: white;
-    background-color: #818181;
+    background-color: #6f6f6f;
     background-image: none;
     border-color: rgba(255, 255, 255, 0.12);
   }
@@ -5470,7 +5468,7 @@ window.background.csd > box.vertical > box.horizontal > stack > widget > noteboo
 .nemo-window .nemo-window-pane widget.entry {
   border: 2px solid #79B757;
   background-color: #2d2d2d;
-  background-image: linear-gradient(0deg, #646464 0%, #6E6E6E 100%);
+  background-image: linear-gradient(0deg, #8C8C8C 0%, #969696 100%);
   border-radius: 5px;
   box-shadow: none;
 }
@@ -5856,7 +5854,7 @@ omnibar.linked > entry:not(:only-child) {
   margin-right: 1px;
   color: #FDFDFD;
   background-color: #4e4e4e;
-  background-image: linear-gradient(0deg, #646464 0%, #6E6E6E 100%);
+  background-image: linear-gradient(0deg, #8C8C8C 0%, #969696 100%);
   box-shadow: inset 0 1px #767676;
   border-left: none;
 }
@@ -5868,7 +5866,7 @@ omnibar.linked > entry:not(:only-child) image, omnibar.linked > entry:not(:only-
 omnibar.linked > entry:not(:only-child):backdrop {
   color: #FDFDFD;
   background-color: #4e4e4e;
-  background-image: linear-gradient(0deg, #646464 0%, #6E6E6E 100%);
+  background-image: linear-gradient(0deg, #8C8C8C 0%, #969696 100%);
   box-shadow: inset 0 1px #767676;
   opacity: 0.65;
 }
@@ -6623,7 +6621,7 @@ window.background > grid.vertical > box.vertical grid.math-buttons button:not(.s
 headerbar.titlebar.incognito-mode entry {
   color: #FDFDFD;
   background-color: #4e4e4e;
-  background-image: linear-gradient(0deg, #646464 0%, #6E6E6E 100%);
+  background-image: linear-gradient(0deg, #8C8C8C 0%, #969696 100%);
   box-shadow: inset 0 1px #767676;
 }
 
@@ -6650,7 +6648,7 @@ notebook > box > stack > box.vertical > paned.vertical > overlay > .floating-bar
 .background headerbar entry.starred, .background headerbar entry.non-starred {
   color: #FDFDFD;
   background-color: #4e4e4e;
-  background-image: linear-gradient(0deg, #646464 0%, #6E6E6E 100%);
+  background-image: linear-gradient(0deg, #8C8C8C 0%, #969696 100%);
   box-shadow: inset 0 1px #767676;
 }
 
@@ -7254,7 +7252,7 @@ window.thunar toolbar#location-toolbar button.flat, window.thunar toolbar#locati
   border-color: rgba(255, 255, 255, 0.12);
   color: #FDFDFD;
   background-color: #4e4e4e;
-  background-image: linear-gradient(0deg, #646464 0%, #6E6E6E 100%);
+  background-image: linear-gradient(0deg, #8C8C8C 0%, #969696 100%);
   border: none;
   box-shadow: inset 0 1px #767676;
   border-width: 1px;
@@ -7288,7 +7286,7 @@ window.thunar toolbar#location-toolbar button.flat:checked:hover, window.thunar 
 
 window.thunar toolbar#location-toolbar button.flat:active, window.thunar toolbar#location-toolbar .raven .raven-header:not(.top) button:active, .raven .raven-header:not(.top) window.thunar toolbar#location-toolbar button:active {
   color: white;
-  background-color: #818181;
+  background-color: #6f6f6f;
   background-image: none;
   border-color: rgba(255, 255, 255, 0.12);
   background-clip: padding-box;
@@ -7309,7 +7307,7 @@ window.thunar toolbar#location-toolbar button.flat:disabled label, window.thunar
 
 window.thunar toolbar#location-toolbar button.flat:disabled:active, window.thunar toolbar#location-toolbar .raven .raven-header:not(.top) button:disabled:active, .raven .raven-header:not(.top) window.thunar toolbar#location-toolbar button:disabled:active, window.thunar toolbar#location-toolbar label:disabled selection.flat:active, label:disabled window.thunar toolbar#location-toolbar selection.flat:active, window.thunar toolbar#location-toolbar button.flat:disabled:checked, window.thunar toolbar#location-toolbar .raven .raven-header:not(.top) button:disabled:checked, .raven .raven-header:not(.top) window.thunar toolbar#location-toolbar button:disabled:checked, window.thunar toolbar#location-toolbar label:disabled selection.flat:checked, label:disabled window.thunar toolbar#location-toolbar selection.flat:checked {
   color: rgba(255, 255, 255, 0.35);
-  background-color: rgba(129, 129, 129, 0.55);
+  background-color: rgba(111, 111, 111, 0.55);
 }
 
 window.thunar toolbar#location-toolbar button.flat, window.thunar toolbar#location-toolbar .raven .raven-header:not(.top) button, .raven .raven-header:not(.top) window.thunar toolbar#location-toolbar button, window.thunar toolbar#location-toolbar button.flat:hover, window.thunar toolbar#location-toolbar button.flat:active, window.thunar toolbar#location-toolbar button.flat:checked, window.thunar toolbar#location-toolbar button.flat:disabled, window.thunar toolbar#location-toolbar label:disabled selection.flat, label:disabled window.thunar toolbar#location-toolbar selection.flat {
@@ -7985,7 +7983,7 @@ MarlinViewWindow FMListView, MarlinViewWindow FMColumnView {
   padding-right: 4px;
   color: #FDFDFD;
   background-color: #4e4e4e;
-  background-image: linear-gradient(0deg, #646464 0%, #6E6E6E 100%);
+  background-image: linear-gradient(0deg, #8C8C8C 0%, #969696 100%);
   box-shadow: inset 0 1px #767676;
 }
 
@@ -8097,7 +8095,7 @@ headerbar.titlebar > button.flat.image-button.toggle, .raven .raven-header:not(.
   border-color: rgba(255, 255, 255, 0.12);
   color: #FDFDFD;
   background-color: #4e4e4e;
-  background-image: linear-gradient(0deg, #646464 0%, #6E6E6E 100%);
+  background-image: linear-gradient(0deg, #8C8C8C 0%, #969696 100%);
   border: none;
   box-shadow: inset 0 1px #767676;
 }
@@ -8116,7 +8114,7 @@ headerbar.titlebar > button.flat.image-button.toggle:hover, .raven .raven-header
 
 headerbar.titlebar > button.flat.image-button.toggle:active, .raven .raven-header:not(.top) headerbar.titlebar > button.image-button.toggle:active {
   color: white;
-  background-color: #818181;
+  background-color: #6f6f6f;
   background-image: none;
   border-color: rgba(255, 255, 255, 0.12);
 }
@@ -9155,7 +9153,7 @@ window.budgie-switcher-window .drop-shadow button, .drop-shadow button, .workspa
   border-color: rgba(255, 255, 255, 0.12);
   color: #FDFDFD;
   background-color: #4e4e4e;
-  background-image: linear-gradient(0deg, #646464 0%, #6E6E6E 100%);
+  background-image: linear-gradient(0deg, #8C8C8C 0%, #969696 100%);
   border: none;
   box-shadow: inset 0 1px #767676;
 }
@@ -9170,7 +9168,7 @@ window.budgie-switcher-window .drop-shadow button, .drop-shadow button, .workspa
 
 .raven .raven-header:not(.top) button:active, .raven stackswitcher.linked > button:active, .raven button:active {
   color: white;
-  background-color: #818181;
+  background-color: #6f6f6f;
   background-image: none;
   border-color: rgba(255, 255, 255, 0.12);
 }
