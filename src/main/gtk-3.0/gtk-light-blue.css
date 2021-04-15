@@ -1717,7 +1717,7 @@ headerbar .linked.path-bar:not(.vertical) > button:hover {
 
 headerbar .linked.stack-switcher:not(.vertical):not(.path-bar) > button:active,
 headerbar .linked.path-bar:not(.vertical) > button:active {
-  color: white;
+  color: #2D2D2D;
   background-color: #888888;
   background-image: none;
   border-color: rgba(0, 0, 0, 0.15);
@@ -2076,7 +2076,7 @@ window.org-gnome-gedit > paned.titlebar > headerbar button.flat.toggle.popup:hov
 }
 
 window.org-gnome-gedit > paned.titlebar > headerbar button.flat.toggle.popup:active:not(.image-button), window.org-gnome-gedit > paned.titlebar > headerbar .raven .raven-header:not(.top) button.toggle.popup:active:not(.image-button), .raven .raven-header:not(.top) window.org-gnome-gedit > paned.titlebar > headerbar button.toggle.popup:active:not(.image-button), .nemo-window .primary-toolbar button:active, headerbar button:active {
-  color: white;
+  color: #2D2D2D;
   background-color: #888888;
   background-image: none;
   border-color: rgba(0, 0, 0, 0.15);
@@ -2123,15 +2123,6 @@ window.org-gnome-gedit > paned.titlebar > headerbar button.flat.toggle.popup:not
   box-shadow: none;
 }
 
-/*
-.path-bar-box {
-  // path-bar-box is somewhat broken
-  background-color: if($variant == 'dark', #505050, #CDCDCD);
-  border-radius: 7px;
-  border-style: outset;
-  border-width: 1px;
-  border-color: $pathbar_border;
-}*/
 .path-bar button {
   min-width: 12px;
   min-height: 20px;
@@ -5148,7 +5139,7 @@ window.background.csd > box.vertical > box.horizontal > stack > widget > noteboo
   color: transparent;
   background-color: #F9F9F9;
   border-radius: 5px;
-  box-shadow: 1px 1px 1px #909090 inset;
+  box-shadow: inset 0px 1px black;
 }
 
 .nautilus-window headerbar .path-bar-box .path-bar {
@@ -5346,7 +5337,7 @@ window.background.csd > box.vertical > box.horizontal > stack > widget > noteboo
     background-image: linear-gradient(0deg, #f8f8f8 0%, #ffffff 100%);
   }
   100% {
-    color: white;
+    color: #2D2D2D;
     background-color: #888888;
     background-image: none;
     border-color: rgba(0, 0, 0, 0.15);
@@ -7228,7 +7219,7 @@ window.thunar toolbar#location-toolbar button.flat:checked:hover, window.thunar 
 }
 
 window.thunar toolbar#location-toolbar button.flat:active, window.thunar toolbar#location-toolbar .raven .raven-header:not(.top) button:active, .raven .raven-header:not(.top) window.thunar toolbar#location-toolbar button:active {
-  color: white;
+  color: #2D2D2D;
   background-color: #888888;
   background-image: none;
   border-color: rgba(0, 0, 0, 0.15);
@@ -8064,7 +8055,7 @@ headerbar.titlebar > button.flat.image-button.toggle:hover, .raven .raven-header
 }
 
 headerbar.titlebar > button.flat.image-button.toggle:active, .raven .raven-header:not(.top) headerbar.titlebar > button.image-button.toggle:active {
-  color: white;
+  color: #2D2D2D;
   background-color: #888888;
   background-image: none;
   border-color: rgba(0, 0, 0, 0.15);
@@ -9123,7 +9114,7 @@ window.budgie-switcher-window .drop-shadow button, .drop-shadow button, .workspa
 }
 
 .raven .raven-header:not(.top) button:active, .raven stackswitcher.linked > button:active, .raven button:active {
-  color: white;
+  color: #2D2D2D;
   background-color: #888888;
   background-image: none;
   border-color: rgba(0, 0, 0, 0.15);

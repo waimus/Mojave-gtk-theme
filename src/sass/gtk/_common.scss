@@ -1872,15 +1872,7 @@ headerbar, .titlebar {
 
 //
 // Pathbars
-/*
-.path-bar-box {
-  // path-bar-box is somewhat broken
-  background-color: if($variant == 'dark', #505050, #CDCDCD);
-  border-radius: 7px;
-  border-style: outset;
-  border-width: 1px;
-  border-color: $pathbar_border;
-}*/
+//
 
 .path-bar button {
   min-width: 12px;

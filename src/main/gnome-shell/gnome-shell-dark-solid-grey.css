@@ -95,7 +95,7 @@ StEntry {
   font-weight: 400;
   background-color: #2a2a2a;
   border-radius: 5px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid #202020;
   box-shadow: none;
 }
 
@@ -106,7 +106,7 @@ StEntry:focus {
 
 StEntry:insensitive {
   color: rgba(222, 222, 222, 0.35);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(32, 32, 32, 0.06);
 }
 
 StEntry StIcon.capslock-warning {
@@ -336,7 +336,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   min-height: 40px;
   padding: 0 16px;
   margin-bottom: 3px;
-  border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-top: 1px solid #202020 !important;
   border-right-width: 0;
   font-size: 9.75pt;
   font-weight: 500;
@@ -801,7 +801,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .audio-selection-device {
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid #202020;
   border-radius: 5px;
 }
 
@@ -996,7 +996,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .popup-separator-menu-item .popup-separator-menu-item-separator {
   height: 1px;
   margin: 0 40px;
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: #202020;
   padding: 0 0;
 }
 
@@ -1179,7 +1179,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .switcher-list .separator {
   width: 1px;
-  background: rgba(255, 255, 255, 0.12);
+  background: #202020;
 }
 
 .switcher-arrow {
@@ -1414,10 +1414,6 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 #panel.solid:overview {
   background-color: transparent;
-}
-
-#panel.solid .panel-corner {
-  -panel-corner-background-color: black;
 }
 
 #panel.solid .panel-button {
@@ -2101,7 +2097,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .nm-dialog-scroll-view {
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid #202020;
   padding: 0;
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 5px;
@@ -2698,7 +2694,7 @@ StWidget.focused .app-well-app-running-dot {
 .notification-banner .notification-actions {
   background-color: transparent;
   padding-top: 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  border-top: 1px solid #202020;
   spacing: 1px;
 }
 
@@ -3068,7 +3064,7 @@ StWidget.focused .app-well-app-running-dot {
   min-height: 20px;
   background-color: #2a2a2a;
   border-radius: 5px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid #202020;
   box-shadow: none;
 }
 
@@ -3079,7 +3075,7 @@ StWidget.focused .app-well-app-running-dot {
 
 .login-dialog StEntry:insensitive {
   color: rgba(222, 222, 222, 0.35);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(32, 32, 32, 0.06);
 }
 
 .login-dialog .modal-dialog-button-box {
@@ -3467,7 +3463,7 @@ StWidget.focused .app-well-app-running-dot {
   border: none;
   border-radius: 0;
   background-color: rgba(45, 45, 45, 0.01);
-  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.12);
+  box-shadow: inset 0 -1px 0 #202020;
 }
 
 #LookingGlassDialog .labels {
@@ -3673,7 +3669,7 @@ StWidget.focused .app-well-app-running-dot {
 
 #dashtodockContainer #dash {
   background-color: rgba(42, 42, 42, 0.65);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.125);
 }
 
 #dashtodockContainer #dash .app-well-app-running-dot {
@@ -3798,7 +3794,7 @@ StWidget.focused .app-well-app-running-dot {
   selected-color: white;
   background-color: #2a2a2a;
   border-radius: 5px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid #202020;
   box-shadow: none;
 }
 

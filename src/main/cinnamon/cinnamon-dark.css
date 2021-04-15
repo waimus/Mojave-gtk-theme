@@ -103,7 +103,7 @@ stage {
   transition-duration: 300ms;
   border-radius: 5px;
   color: #dadada;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid #202020;
   background-color: #2d2d2d;
 }
 
@@ -116,7 +116,7 @@ stage {
 
 #menu-search-entry:insensitive, .notification StEntry:insensitive, .menu #notification StEntry:insensitive, .popup-menu #notification StEntry:insensitive, #notification StEntry:insensitive {
   color: rgba(222, 222, 222, 0.35);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid #202020;
   background-color: rgba(45, 45, 45, 0.55);
 }
 
@@ -174,7 +174,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .popup-slider-menu-item,
 .slider {
   -slider-height: 4px;
-  -slider-background-color: rgba(255, 255, 255, 0.12);
+  -slider-background-color: #202020;
   -slider-border-color: rgba(0, 0, 0, 0);
   -slider-active-background-color: #017AFF;
   -slider-active-border-color: rgba(0, 0, 0, 0);
@@ -413,7 +413,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   height: 1px;
   margin: 0;
   padding: 0;
-  border-color: rgba(255, 255, 255, 0.12);
+  border-color: #202020;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   background-color: transparent;
@@ -740,7 +740,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .about-scrollBox {
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid #202020;
   border-radius: 2px;
   background-color: #2D2D2D;
   padding: 4px;
@@ -892,7 +892,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .menu #notification, .popup-menu #notification {
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid #202020;
 }
 
 .menu #notification, .menu #notification.multi-line-notification, .popup-menu #notification, .popup-menu #notification.multi-line-notification {
@@ -953,7 +953,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .switcher-list {
   color: #dadada;
   background-color: #2a2a2a;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid #202020;
   border-radius: 3px;
   padding: 20px;
 }
@@ -1271,7 +1271,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   padding: 10px;
   transition-duration: 300;
   background-color: #333333;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid #202020;
   border-radius: 3px;
 }
 
@@ -1343,7 +1343,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .menu StScrollView.menu-application-button {
   padding: 0;
   border-radius: 3px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid #202020;
   background-color: #2D2D2D;
 }
 

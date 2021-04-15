@@ -1205,10 +1205,6 @@ $selected_slider_color: white;
 
     &:overview { background-color: transparent; } // for Ubuntu session
 
-    .panel-corner {
-      -panel-corner-background-color: $panel_bg;
-    }
-
     .panel-button {
       color: $panel_fg;
       text-shadow: none;

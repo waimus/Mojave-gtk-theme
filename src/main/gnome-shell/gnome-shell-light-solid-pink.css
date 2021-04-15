@@ -1416,10 +1416,6 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   background-color: transparent;
 }
 
-#panel.solid .panel-corner {
-  -panel-corner-background-color: #f1f1f1;
-}
-
 #panel.solid .panel-button {
   color: #363636;
   text-shadow: none;
@@ -3673,7 +3669,7 @@ StWidget.focused .app-well-app-running-dot {
 
 #dashtodockContainer #dash {
   background-color: rgba(241, 241, 241, 0.55);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.125);
 }
 
 #dashtodockContainer #dash .app-well-app-running-dot {
