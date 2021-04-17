@@ -126,7 +126,7 @@ window.background.csd { // gnome-terminal 3.32 setting
     color: transparent;
     background-color: $pathbar_bg;
     border-radius: 5px;
-    box-shadow: inset 0px 1px black;
+    box-shadow: 0px 1.5px 1px 0px $header_button_highlight;
     
 
     .path-bar {
